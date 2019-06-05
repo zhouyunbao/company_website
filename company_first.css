@@ -1,0 +1,41 @@
+.href_div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  font-weight: bold;
+  align-items: center;
+  width: 50%;
+}
+
+.main_column_between
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_row_around
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.pome_h4_div
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+
+
+}
+
+.pome_h4
+{
+  margin: 0px;
+}
+
