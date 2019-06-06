@@ -1,3 +1,10 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+.footer {
+  background-color: #7a6464
+}
 .href_div
 {
   display: flex;
@@ -7,6 +14,7 @@
   font-weight: bold;
   align-items: center;
   width: 50%;
+
 }
 
 .main_column_between
@@ -30,8 +38,6 @@
   justify-content: center;
   font-size: 30px;
   font-weight: bold;
-
-
 }
 
 .pome_h4
@@ -39,3 +45,156 @@
   margin: 0px;
 }
 
+.href_text
+{
+  text-decoration: none;
+  color: black;
+}
+
+a:link    {color:black;}
+a:visited {color:black;}
+a:hover   {color:red;}
+a:active  {color:black;}
+
+.main_pome
+{
+  margin-top: 50px;
+  color: black;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_first_pome
+{
+  margin-top: 200px;
+}
+
+.main_picture
+{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.main_text
+{
+  font-size: 25px;
+  margin-top: 35px;
+  text-indent: 2em;
+}
+
+.howtodo_question_div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.howtodo_question_text {
+  margin-top: 20px;
+  font-size: 18px;
+}
+.howtodo_question_text:not(:last-child)
+{
+  flex: 1;
+}
+.howtodo_question_text:nth-child(2) {
+  margin-left: 50px;
+}
+.howtodo_question_text:nth-child(3) {
+  margin-left: 65px;
+}
+.howtodo_question_text:nth-child(4) {
+  margin-left: 60px;
+}
+
+.howtodo_question_text:last-child {
+  width: 150px;
+  margin-left: 40px;
+}
+
+
+.howtodo_text_pome
+{
+  display: inline-block;
+  font-size: 32px;
+  border-bottom: 4px solid #656565;
+  color: #656565;
+  line-height: 50px;
+  vertical-align: top;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.howtodo_text_pic
+{
+  margin-left: 60px;
+  width: 700px;
+  height: auto;
+  margin-top: 30px;
+}
+
+.howtodo_text
+{
+  font-size: 23px;
+  text-indent: 2em;
+}
+
+.howtodo_pic_div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.flex_column
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.howtodo_text_pic_anti
+{
+  width: 1000px;
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.created_div
+{
+  margin-top: 50px;
+}
+
+.tail_pome
+{
+  font-size: 35px;
+  margin-top: 50px;
+}
+
+.tail_text
+{
+  font-size: 20px;
+  margin-top: 20px;
+  text-indent: 2em;
+  margin-bottom: 40px;
+}
+
+.tail_text_div
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #7a6464;
+}
+
+.tail_tip
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 20px;
+}
